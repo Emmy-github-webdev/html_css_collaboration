@@ -1,7 +1,38 @@
 body {
-    background: url('./images/bg-image.jpeg') no-repeat center center/cover;
+    background: url('./images/image.jpg') no-repeat center center/cover;
+    font-family: 'Poppins', sans-serif;
     
-    
+}
+
+input{
+    margin-top: 12px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+label{
+    margin-top: 12px;
+}
+button{
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #37AF65;
+    color: white;
+    font-size: 20px;
+    height: 38px;
+}
+select{
+    margin-top: 12px;
+    font-size: 20px;
+    border-radius: 6px;
+
+}
+
+textarea{
+    font-size: 20px;
+    border-radius: 6px;
+    height: 138px;
+
 }
 
 .container{
@@ -15,6 +46,25 @@ body {
 }
 
 form{
-    background: black;
+    background: #292947;
 }
 
+.align-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.margins{
+    margin: 22px;
+    padding-bottom: 21px;
+    padding-top: 21px;
+}
+
+.align-title{
+    text-align: center;
+    
+}
+.align-title h1{
+    font-size: 2.2em;
+    
+}
