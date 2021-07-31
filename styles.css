@@ -1,0 +1,20 @@
+body {
+    background: url('./images/bg-image.jpeg') no-repeat center center/cover;
+    
+    
+}
+
+.container{
+    max-width: 50%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    color: #FFF;
+}
+
+form{
+    background: black;
+}
+
